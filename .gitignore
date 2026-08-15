@@ -1,0 +1,11 @@
+# Build output — regenerable from the source files, not part of the repo
+_deploy/
+nova-site.zip
+
+# Local tooling
+.claude/
+
+# OS cruft
+Thumbs.db
+Desktop.ini
+.DS_Store

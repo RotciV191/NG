@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>NOVA General Contractor LLC — Interior &amp; Exterior Renovation</title>
+<meta name="description" content="NOVA General Contractor LLC handles interior and exterior renovation — kitchens, bathrooms, flooring, painting and exterior work. Fully insured and bonded. Call (425) 343-5456 for a free estimate.">
+
+<!-- TODO (once the domain is live): add <link rel="canonical"> and absolute og:url / og:image URLs. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NOVA General Contractor LLC">
+<meta property="og:title" content="NOVA General Contractor LLC — Interior &amp; Exterior Renovation">
+<meta property="og:description" content="Interior and exterior renovation. Fully insured and bonded. Free estimates — (425) 343-5456.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1b1b1a">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.classList.add("js");</script>
+
+<!-- Structured data: only confirmed facts. Add address, areaServed, openingHours
+     and url once those are decided — see CONTENT-GUIDE.md. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GeneralContractor",
+  "name": "NOVA General Contractor LLC",
+  "description": "Interior and exterior renovation contractor. Fully insured and bonded.",
+  "telephone": "+1-425-343-5456",
+  "email": "novagenerallnv@gmail.com",
+  "knowsAbout": [
+    "Kitchen remodeling",
+    "Bathroom remodeling",
+    "Interior renovation",
+    "Exterior renovation",
+    "Flooring",
+    "Painting"
+  ]
+}
+</script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================ HEADER ============================ -->
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="wordmark" href="index.html" aria-label="NOVA General Contractor LLC — home">
+      <span class="wordmark__name">NOVA</span>
+      <span class="wordmark__sub">General Contractor LLC</span>
+    </a>
+
+    <nav class="nav" id="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#estimate">Contact</a></li>
+      </ul>
+      <div class="nav__cta">
+        <a class="btn btn--outline" href="tel:+14253435456">Call (425) 343-5456</a>
+        <a class="btn btn--accent" href="#estimate">Free Estimate</a>
+      </div>
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-phone" href="tel:+14253435456">(425) 343-5456</a>
+      <a class="btn btn--accent btn--sm" href="#estimate">Free Estimate</a>
+    </div>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span>
+      <span class="visually-hidden">Menu</span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============================= HERO ============================= -->
+  <section class="hero">
+    <div class="hero__text">
+      <p class="eyebrow">Interior &amp; Exterior Renovation</p>
+      <h1>Renovation work built to last.</h1>
+      <p class="lede">
+        NOVA General Contractor LLC takes on interior and exterior renovation —
+        kitchens, bathrooms, flooring, painting and exterior work — with careful
+        prep, clean detailing and straight answers from the first walkthrough to
+        the last.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--accent" href="#estimate">Get a Free Estimate</a>
+        <a class="link" href="projects.html">View Projects</a>
+      </div>
+      <p class="hero__assurance">Fully Insured &amp; Bonded</p>
+    </div>
+
+    <!-- DEMO PHOTO — licensed stock, stands in until NOVA's own photography is
+         available. Replace assets/img/hero.jpg and update the alt text. -->
+    <figure class="hero__media media" data-placeholder="assets/img/hero.jpg">
+      <img src="assets/img/hero.jpg" alt="Renovated kitchen with wood cabinetry and glass doors opening to a garden" fetchpriority="high">
+    </figure>
+  </section>
+
+  <!-- =========================== SERVICES =========================== -->
+  <section class="section section--tint" id="services">
+    <div class="shell">
+      <header class="section-head" data-reveal>
+        <p class="eyebrow">Our Services</p>
+        <h2>Interior and exterior work, handled end to end.</h2>
+      </header>
+
+      <div class="services__layout">
+        <!-- Add, remove or rename a service by editing one button here and its
+             matching panel below. Keep the id / aria-controls pair in sync. -->
+        <div class="services__list" role="tablist" aria-orientation="vertical" aria-label="Services">
+          <button class="service-tab" type="button" role="tab" id="tab-kitchen"
+                  aria-controls="panel-kitchen" aria-selected="true">
+            <span class="service-tab__num">01</span><span>Kitchen Remodeling</span>
+          </button>
+          <button class="service-tab" type="button" role="tab" id="tab-bathroom"
+                  aria-controls="panel-bathroom" aria-selected="false">
+            <span class="service-tab__num">02</span><span>Bathroom Remodeling</span>
+          </button>
+          <button class="service-tab" type="button" role="tab" id="tab-interior"
+                  aria-controls="panel-interior" aria-selected="false">
+            <span class="service-tab__num">03</span><span>Interior Renovation</span>
+          </button>
+          <button class="service-tab" type="button" role="tab" id="tab-exterior"
+                  aria-controls="panel-exterior" aria-selected="false">
+            <span class="service-tab__num">04</span><span>Exterior Renovation</span>
+          </button>
+          <button class="service-tab" type="button" role="tab" id="tab-flooring"
+                  aria-controls="panel-flooring" aria-selected="false">
+            <span class="service-tab__num">05</span><span>Flooring</span>
+          </button>
+          <button class="service-tab" type="button" role="tab" id="tab-painting"
+                  aria-controls="panel-painting" aria-selected="false">
+            <span class="service-tab__num">06</span><span>Painting</span>
+          </button>
+          <button class="service-tab" type="button" role="tab" id="tab-repairs"
+                  aria-controls="panel-repairs" aria-selected="false">
+            <span class="service-tab__num">07</span><span>Repairs &amp; Improvements</span>
+          </button>
+        </div>
+
+        <!-- DEMO PHOTOS — licensed stock in assets/img/services/. Swap each file
+             for NOVA's own work and update the alt text alongside it. -->
+        <div class="services__detail">
+          <div class="service-panel" role="tabpanel" id="panel-kitchen" aria-labelledby="tab-kitchen" tabindex="0">
+            <figure class="media media--3x2" data-placeholder="assets/img/services/kitchen.jpg">
+              <img src="assets/img/services/kitchen.jpg" alt="Remodeled kitchen with a large island, white cabinetry and stainless appliances" loading="lazy">
+            </figure>
+            <h3>Kitchen Remodeling</h3>
+            <p>Cabinetry, countertops, tile, lighting and finish carpentry — planned
+               around how the room is actually used, and detailed so the finished
+               surfaces line up.</p>
+          </div>
+
+          <div class="service-panel" role="tabpanel" id="panel-bathroom" aria-labelledby="tab-bathroom" tabindex="0" hidden>
+            <figure class="media media--3x2" data-placeholder="assets/img/services/bathroom.jpg">
+              <img src="assets/img/services/bathroom.jpg" alt="Remodeled bathroom with a double vanity, round mirrors and marble tile" loading="lazy">
+            </figure>
+            <h3>Bathroom Remodeling</h3>
+            <p>Full rebuilds and focused updates: waterproofing and tile, vanities,
+               fixtures, ventilation and finishes that stand up to daily use.</p>
+          </div>
+
+          <div class="service-panel" role="tabpanel" id="panel-interior" aria-labelledby="tab-interior" tabindex="0" hidden>
+            <figure class="media media--3x2" data-placeholder="assets/img/services/interior.jpg">
+              <img src="assets/img/services/interior.jpg" alt="Renovated living room with a leather sofa, painted walls and wood flooring" loading="lazy">
+            </figure>
+            <h3>Interior Renovation</h3>
+            <p>Single rooms through whole-home renovations — framing, drywall, doors,
+               trim and finish work, sequenced so the job keeps moving.</p>
+          </div>
+
+          <div class="service-panel" role="tabpanel" id="panel-exterior" aria-labelledby="tab-exterior" tabindex="0" hidden>
+            <figure class="media media--3x2" data-placeholder="assets/img/services/exterior.jpg">
+              <img src="assets/img/services/exterior.jpg" alt="House exterior with new siding, trim and a covered front porch" loading="lazy">
+            </figure>
+            <h3>Exterior Renovation</h3>
+            <p>Siding, trim, decks, fences and outdoor spaces — built and sealed to
+               handle weather season after season.</p>
+          </div>
+
+          <div class="service-panel" role="tabpanel" id="panel-flooring" aria-labelledby="tab-flooring" tabindex="0" hidden>
+            <figure class="media media--3x2" data-placeholder="assets/img/services/flooring.jpg">
+              <img src="assets/img/services/flooring.jpg" alt="Empty room with newly installed wood flooring and fresh white walls" loading="lazy">
+            </figure>
+            <h3>Flooring</h3>
+            <p>Hardwood, laminate, tile and vinyl, including subfloor prep, level
+               transitions and trim details.</p>
+          </div>
+
+          <div class="service-panel" role="tabpanel" id="panel-painting" aria-labelledby="tab-painting" tabindex="0" hidden>
+            <figure class="media media--3x2" data-placeholder="assets/img/services/painting.jpg">
+              <img src="assets/img/services/painting.jpg" alt="Freshly painted stairway with white trim and a wood handrail" loading="lazy">
+            </figure>
+            <h3>Painting</h3>
+            <p>Interior and exterior painting with the prep that makes it last —
+               patching, sanding, priming and clean, straight edges.</p>
+          </div>
+
+          <div class="service-panel" role="tabpanel" id="panel-repairs" aria-labelledby="tab-repairs" tabindex="0" hidden>
+            <figure class="media media--3x2" data-placeholder="assets/img/services/repairs.jpg">
+              <img src="assets/img/services/repairs.jpg" alt="Interior mid-renovation with exposed framing and a structural beam in place" loading="lazy">
+            </figure>
+            <h3>Repairs &amp; Improvements</h3>
+            <p>Smaller jobs handled properly: drywall repair, doors and trim, and the
+               targeted improvements that keep a house in good shape.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== PROJECTS =========================== -->
+  <section class="section" id="projects">
+    <div class="shell">
+      <header class="section-head section-head--split" data-reveal>
+        <h2>Projects</h2>
+        <a class="link" href="projects.html">View All Projects</a>
+      </header>
+
+      <!-- Featured work. DEMO PHOTOS — licensed stock standing in for NOVA's own
+           projects; titles describe the type of work, not specific jobs.
+           Full list lives in projects.html. -->
+      <div class="projects-grid projects-grid--featured">
+        <article class="project" data-category="kitchen" data-reveal>
+          <a class="project__link" href="projects.html#p-01">
+            <figure class="media media--3x2" data-placeholder="assets/img/projects/01-cover.jpg">
+              <img src="assets/img/projects/01-cover.jpg" alt="Kitchen renovation with white cabinetry, pendant lighting and a breakfast bar" loading="lazy">
+            </figure>
+            <p class="project__meta"><span>Kitchen</span><span class="project__index">01</span></p>
+            <h3 class="project__title">Kitchen Renovation</h3>
+          </a>
+        </article>
+
+        <article class="project" data-category="bathroom" data-reveal>
+          <a class="project__link" href="projects.html#p-02">
+            <figure class="media media--4x5" data-placeholder="assets/img/projects/02-cover.jpg">
+              <img src="assets/img/projects/02-cover.jpg" alt="Remodeled bathroom with a wood vanity, round mirrors and tiled shower" loading="lazy">
+            </figure>
+            <p class="project__meta"><span>Bathroom</span><span class="project__index">02</span></p>
+            <h3 class="project__title">Bathroom Remodel</h3>
+          </a>
+        </article>
+
+        <article class="project" data-category="interior" data-reveal>
+          <a class="project__link" href="projects.html#p-03">
+            <figure class="media media--4x5" data-placeholder="assets/img/projects/03-cover.jpg">
+              <img src="assets/img/projects/03-cover.jpg" alt="Renovated living room with a fireplace, new hardwood flooring and trim" loading="lazy">
+            </figure>
+            <p class="project__meta"><span>Interior</span><span class="project__index">03</span></p>
+            <h3 class="project__title">Interior Renovation</h3>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ ABOUT ============================= -->
+  <section class="section section--tint" id="about">
+    <div class="shell">
+      <div class="about__intro" data-reveal>
+        <h2>Why NOVA</h2>
+        <p>
+          NOVA General Contractor LLC is a general contractor working on interior
+          and exterior renovation. Fully insured and bonded, with one point of
+          contact from the estimate through the final walkthrough.
+        </p>
+      </div>
+
+      <div class="pillars">
+        <div class="pillar" data-reveal>
+          <span class="pillar__num">01</span>
+          <h3 class="pillar__title">Fully Insured</h3>
+          <p class="pillar__body">Coverage is in place before any work starts, on every job.</p>
+        </div>
+        <div class="pillar" data-reveal>
+          <span class="pillar__num">02</span>
+          <h3 class="pillar__title">Bonded</h3>
+          <p class="pillar__body">Bonded for the general contracting work we take on.</p>
+        </div>
+        <div class="pillar" data-reveal>
+          <span class="pillar__num">03</span>
+          <h3 class="pillar__title">Quality Work</h3>
+          <p class="pillar__body">Preparation, materials and finish details checked at each stage — not just at the end.</p>
+        </div>
+        <div class="pillar" data-reveal>
+          <span class="pillar__num">04</span>
+          <h3 class="pillar__title">Clear Communication</h3>
+          <p class="pillar__body">Straight answers on scope, schedule and cost, and one person to call about them.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== ESTIMATE =========================== -->
+  <section class="section" id="estimate">
+    <div class="shell">
+      <div class="estimate__layout">
+        <div class="estimate__aside" data-reveal>
+          <p class="eyebrow">Free Estimate</p>
+          <h2>Tell us about your project.</h2>
+          <p>Share the basics and a few photos. We'll review the details and get
+             back to you with next steps.</p>
+          <p class="estimate__call">
+            Prefer to call?<br>
+            <a href="tel:+14253435456">(425) 343-5456</a>
+          </p>
+        </div>
+
+        <!-- Form delivery: set CONFIG.formEndpoint in assets/js/site.js.
+             Until then the send button offers an email fallback. -->
+        <form class="estimate__form" id="estimate-form" novalidate enctype="multipart/form-data">
+          <p class="hp" aria-hidden="true">
+            <label>Company <input type="text" name="company" tabindex="-1" autocomplete="off"></label>
+          </p>
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Full Name <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+              <p class="field-error" id="name-error">Please enter your name.</p>
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone <span class="req" aria-hidden="true">*</span></label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+              <p class="field-error" id="phone-error">Please enter a phone number.</p>
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email">
+              <p class="field-error" id="email-error">Please check this email address.</p>
+            </div>
+
+            <div class="field">
+              <label for="project_type">Project Type</label>
+              <select id="project_type" name="project_type">
+                <option value="">Select a project type</option>
+                <option>Kitchen Remodeling</option>
+                <option>Bathroom Remodeling</option>
+                <option>Interior Renovation</option>
+                <option>Exterior Renovation</option>
+                <option>Flooring</option>
+                <option>Painting</option>
+                <option>Repairs &amp; Improvements</option>
+                <option>Something else</option>
+              </select>
+            </div>
+
+            <div class="field field--full">
+              <label for="location">City / Address</label>
+              <input type="text" id="location" name="location" autocomplete="address-level2">
+            </div>
+
+            <fieldset class="fieldset field--full">
+              <legend>Preferred Contact Method</legend>
+              <div class="radio-row">
+                <input type="radio" id="contact-phone" name="contact_method" value="Phone" checked>
+                <label for="contact-phone">Phone</label>
+                <input type="radio" id="contact-text" name="contact_method" value="Text">
+                <label for="contact-text">Text</label>
+                <input type="radio" id="contact-email" name="contact_method" value="Email">
+                <label for="contact-email">Email</label>
+              </div>
+            </fieldset>
+
+            <div class="field field--full">
+              <label for="description">Project Description <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="description" name="description" required
+                        placeholder="What needs to be done, roughly when, and anything else worth knowing."></textarea>
+              <p class="field-error" id="description-error">Please tell us briefly about the project.</p>
+            </div>
+
+            <div class="field field--full">
+              <label for="photos">Upload Project Photos</label>
+              <div class="upload">
+                <label class="upload__btn" for="photos">Choose Photos</label>
+                <span class="upload__status">No photos selected</span>
+                <input class="visually-hidden" type="file" id="photos" name="photos" accept="image/*" multiple>
+              </div>
+              <ul class="upload__list"></ul>
+            </div>
+          </div>
+
+          <div class="form-foot">
+            <button class="btn btn--accent form-submit" type="submit">Request Free Estimate</button>
+            <p class="note">Photos of the space help us give a more accurate estimate.</p>
+          </div>
+
+          <p class="form-status" id="form-status" role="status" aria-live="polite" hidden></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============================= FOOTER ============================= -->
+<footer class="site-footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer__brand">
+        <span class="wordmark">
+          <span class="wordmark__name">NOVA</span>
+          <span class="wordmark__sub">General Contractor LLC</span>
+        </span>
+        <p class="footer__tagline">Interior and Exterior Renovation.<br>Fully Insured &amp; Bonded.</p>
+      </div>
+
+      <div>
+        <p class="footer__label">Contact</p>
+        <ul class="footer__list">
+          <li><a class="footer__phone" href="tel:+14253435456">(425) 343-5456</a></li>
+          <li><a href="mailto:novagenerallnv@gmail.com">novagenerallnv@gmail.com</a></li>
+        </ul>
+        <!-- TODO: add service area and business hours here once confirmed.
+        <ul class="footer__list" style="margin-top:18px">
+          <li>Service area: …</li>
+          <li>Hours: …</li>
+        </ul>
+        -->
+      </div>
+
+      <div>
+        <p class="footer__label">Site</p>
+        <ul class="footer__list">
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#estimate">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year">2026</span> NOVA General Contractor LLC. All rights reserved.</p>
+      <p>Fully Insured &amp; Bonded</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Single slim bar on small screens — not two floating buttons. -->
+<div class="action-bar" aria-label="Quick contact">
+  <div class="action-bar__inner">
+    <a href="tel:+14253435456">Call (425) 343-5456</a>
+    <a href="#estimate">Free Estimate</a>
+  </div>
+</div>
+
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Projects — NOVA General Contractor LLC</title>
+<meta name="description" content="Interior and exterior renovation projects by NOVA General Contractor LLC — kitchens, bathrooms, interior and exterior work. Fully insured and bonded.">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NOVA General Contractor LLC">
+<meta property="og:title" content="Projects — NOVA General Contractor LLC">
+<meta property="og:description" content="Interior and exterior renovation projects by NOVA General Contractor LLC.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1b1b1a">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================ HEADER ============================ -->
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="wordmark" href="index.html" aria-label="NOVA General Contractor LLC — home">
+      <span class="wordmark__name">NOVA</span>
+      <span class="wordmark__sub">General Contractor LLC</span>
+    </a>
+
+    <nav class="nav" id="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#estimate">Contact</a></li>
+      </ul>
+      <div class="nav__cta">
+        <a class="btn btn--outline" href="tel:+14253435456">Call (425) 343-5456</a>
+        <a class="btn btn--accent" href="index.html#estimate">Free Estimate</a>
+      </div>
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-phone" href="tel:+14253435456">(425) 343-5456</a>
+      <a class="btn btn--accent btn--sm" href="index.html#estimate">Free Estimate</a>
+    </div>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span>
+      <span class="visually-hidden">Menu</span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section page-head">
+    <div class="shell">
+      <p class="eyebrow">Projects</p>
+      <h1>Interior and exterior renovation work.</h1>
+    </div>
+  </section>
+
+  <section class="section section--flush-top">
+    <div class="shell">
+      <!-- Filters read the data-category attribute on each project below. -->
+      <div class="filters" role="group" aria-label="Filter projects by type">
+        <button class="filter" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter" type="button" data-filter="kitchen" aria-pressed="false">Kitchen</button>
+        <button class="filter" type="button" data-filter="bathroom" aria-pressed="false">Bathroom</button>
+        <button class="filter" type="button" data-filter="interior" aria-pressed="false">Interior</button>
+        <button class="filter" type="button" data-filter="exterior" aria-pressed="false">Exterior</button>
+      </div>
+
+      <!-- ==================================================================
+           DEMO CONTENT
+           Photos are licensed stock and the titles/summaries describe the type
+           of work — they are not records of specific NOVA jobs. Replace each
+           photo, title and summary as real projects are documented.
+
+           HOW TO ADD A PROJECT
+           Copy one <article> block and edit:
+             id                  unique, e.g. p-07 (used for deep links)
+             data-category       kitchen | bathroom | interior | exterior
+             data-category-label label shown in the detail view
+             data-title          project name
+             data-summary        description — leave empty to hide it
+             data-gallery        photo paths separated by |
+             data-before/after   BOTH must be real photos of the same view
+                                 for the Before/After slider to appear
+           =================================================================== -->
+      <div class="projects-grid projects-grid--all">
+
+        <article class="project" id="p-01" data-reveal
+                 data-category="kitchen"
+                 data-category-label="Kitchen"
+                 data-title="Kitchen Renovation"
+                 data-summary="Cabinetry, countertops, tile and lighting, coordinated around a new working layout."
+                 data-gallery="assets/img/projects/01-cover.jpg|assets/img/projects/01-b.jpg"
+                 data-before=""
+                 data-after="">
+          <a class="project__link" href="#p-01">
+            <figure class="media media--3x2" data-placeholder="assets/img/projects/01-cover.jpg">
+              <img src="assets/img/projects/01-cover.jpg" alt="Kitchen renovation with white cabinetry, pendant lighting and a breakfast bar" loading="lazy">
+            </figure>
+            <p class="project__meta"><span>Kitchen</span><span class="project__index">01</span></p>
+            <h2 class="project__title">Kitchen Renovation</h2>
+          </a>
+        </article>
+
+        <article class="project" id="p-02" data-reveal
+                 data-category="bathroom"
+                 data-category-label="Bathroom"
+                 data-title="Bathroom Remodel"
+                 data-summary="Tile and waterproofing, vanity, fixtures and ventilation replaced throughout."
+                 data-gallery="assets/img/projects/02-cover.jpg|assets/img/projects/02-b.jpg"
+                 data-before=""
+                 data-after="">
+          <a class="project__link" href="#p-02">
+            <figure class="media media--3x2" data-placeholder="assets/img/projects/02-cover.jpg">
+              <img src="assets/img/projects/02-cover.jpg" alt="Remodeled bathroom with a wood vanity, round mirrors and tiled shower" loading="lazy">
+            </figure>
+            <p class="project__meta"><span>Bathroom</span><span class="project__index">02</span></p>
+            <h2 class="project__title">Bathroom Remodel</h2>
+          </a>
+        </article>
+
+        <article class="project" id="p-03" data-reveal
+                 data-category="interior"
+                 data-category-label="Interior"
+                 data-title="Interior Renovation"
+                 data-summary="Living space rebuilt with new flooring, trim, paint and finish carpentry."
+                 data-gallery="assets/img/projects/03-cover.jpg|assets/img/projects/03-b.jpg"
+                 data-before=""
+                 data-after="">
+          <a class="project__link" href="#p-03">
+            <figure class="media media--3x2" data-placeholder="assets/img/projects/03-cover.jpg">
+              <img src="assets/img/projects/03-cover.jpg" alt="Renovated living room with a fireplace, new hardwood flooring and trim" loading="lazy">
+            </figure>
+            <p class="project__meta"><span>Interior</span><span class="project__index">03</span></p>
+            <h2 class="project__title">Interior Renovation</h2>
+          </a>
+        </article>
+
+        <article class="project" id="p-04" data-reveal
+                 data-category="kitchen"
+                 data-category-label="Kitchen"
+                 data-title="Kitchen &amp; Dining Renovation"
+                 data-summary="Kitchen and dining opened into one space, with new cabinetry, lighting and finishes."
+                 data-gallery="assets/img/projects/04-cover.jpg|assets/img/projects/04-b.jpg"
+                 data-before=""
+                 data-after="">
+          <a class="project__link" href="#p-04">
+            <figure class="media media--3x2" data-placeholder="assets/img/projects/04-cover.jpg">
+              <img src="assets/img/projects/04-cover.jpg" alt="Open-plan kitchen and dining area with white cabinetry and a dining table" loading="lazy">
+            </figure>
+            <p class="project__meta"><span>Kitchen</span><span class="project__index">04</span></p>
+            <h2 class="project__title">Kitchen &amp; Dining Renovation</h2>
+          </a>
+        </article>
+
+        <article class="project" id="p-05" data-reveal
+                 data-category="interior"
+                 data-category-label="Interior"
+                 data-title="Flooring &amp; Painting"
+                 data-summary="New hardwood flooring throughout, with a full interior repaint and trim work."
+                 data-gallery="assets/img/projects/05-cover.jpg|assets/img/projects/05-b.jpg"
+                 data-before=""
+                 data-after="">
+          <a class="project__link" href="#p-05">
+            <figure class="media media--3x2" data-placeholder="assets/img/projects/05-cover.jpg">
+              <img src="assets/img/projects/05-cover.jpg" alt="Living room with newly installed hardwood flooring and repainted walls" loading="lazy">
+            </figure>
+            <p class="project__meta"><span>Interior</span><span class="project__index">05</span></p>
+            <h2 class="project__title">Flooring &amp; Painting</h2>
+          </a>
+        </article>
+
+        <article class="project" id="p-06" data-reveal
+                 data-category="exterior"
+                 data-category-label="Exterior"
+                 data-title="Exterior Renovation"
+                 data-summary="Siding, trim and entry work, prepped and sealed to handle the weather."
+                 data-gallery="assets/img/projects/06-cover.jpg|assets/img/projects/06-b.jpg"
+                 data-before=""
+                 data-after="">
+          <a class="project__link" href="#p-06">
+            <figure class="media media--3x2" data-placeholder="assets/img/projects/06-cover.jpg">
+              <img src="assets/img/projects/06-cover.jpg" alt="House exterior with painted siding, white trim and a covered porch" loading="lazy">
+            </figure>
+            <p class="project__meta"><span>Exterior</span><span class="project__index">06</span></p>
+            <h2 class="project__title">Exterior Renovation</h2>
+          </a>
+        </article>
+      </div>
+
+      <p class="projects-empty" hidden>No projects in this category yet.</p>
+    </div>
+  </section>
+
+  <section class="section section--tint section--rule">
+    <div class="shell">
+      <div class="estimate__layout">
+        <div class="estimate__aside">
+          <p class="eyebrow">Free Estimate</p>
+          <h2>Planning something similar?</h2>
+        </div>
+        <div class="cta-block">
+          <p>Send us the details and a few photos of the space, and we'll get back
+             to you with next steps.</p>
+          <div class="cta-block__actions">
+            <a class="btn btn--accent" href="index.html#estimate">Get a Free Estimate</a>
+            <a class="link" href="tel:+14253435456">Call (425) 343-5456</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ====================== PROJECT DETAIL DIALOG ====================== -->
+<dialog class="dialog" id="project-dialog" aria-labelledby="dialog-title">
+  <div class="dialog__inner">
+    <div class="dialog__head">
+      <div>
+        <span class="dialog__cat"></span>
+        <h2 class="dialog__title" id="dialog-title"></h2>
+      </div>
+      <button class="dialog__close" type="button" aria-label="Close project">&times;</button>
+    </div>
+    <p class="dialog__summary"></p>
+    <div class="dialog__compare" hidden></div>
+    <div class="dialog__gallery" hidden></div>
+    <p class="dialog__empty note" hidden>Photos and details for this project are being prepared.</p>
+  </div>
+</dialog>
+
+<!-- ============================= FOOTER ============================= -->
+<footer class="site-footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer__brand">
+        <span class="wordmark">
+          <span class="wordmark__name">NOVA</span>
+          <span class="wordmark__sub">General Contractor LLC</span>
+        </span>
+        <p class="footer__tagline">Interior and Exterior Renovation.<br>Fully Insured &amp; Bonded.</p>
+      </div>
+
+      <div>
+        <p class="footer__label">Contact</p>
+        <ul class="footer__list">
+          <li><a class="footer__phone" href="tel:+14253435456">(425) 343-5456</a></li>
+          <li><a href="mailto:novagenerallnv@gmail.com">novagenerallnv@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer__label">Site</p>
+        <ul class="footer__list">
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#estimate">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year">2026</span> NOVA General Contractor LLC. All rights reserved.</p>
+      <p>Fully Insured &amp; Bonded</p>
+    </div>
+  </div>
+</footer>
+
+<div class="action-bar" aria-label="Quick contact">
+  <div class="action-bar__inner">
+    <a href="tel:+14253435456">Call (425) 343-5456</a>
+    <a href="index.html#estimate">Free Estimate</a>
+  </div>
+</div>
+
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
