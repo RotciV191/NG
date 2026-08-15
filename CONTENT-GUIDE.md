@@ -182,8 +182,13 @@ No se inventó nada. Falta confirmar:
       ajustar los `alt`. Esta versión es una demo de presentación.
 - [ ] Confirmar el email y probar `tel:` y `mailto:` desde un móvil.
 - [ ] Conectar y probar el formulario (incluida una foto adjunta).
-- [ ] Añadir el dominio en las etiquetas comentadas de `<head>`:
-      `<link rel="canonical">`, `og:url` y `og:image` con URL absoluta.
+- [ ] **Quitar el `<meta name="robots" content="noindex">`** de `index.html` y
+      `projects.html`. Está puesto a propósito: mientras la web sea una demo con
+      fotos temporales y el email sin confirmar, no interesa que Google la
+      indexe. Al lanzar, se borra esa línea en las dos páginas.
+- [ ] Cambiar el dominio en `<head>`: `canonical`, `og:url` y `og:image` apuntan
+      ahora a `https://rotciv191.github.io/NG/`. Sustituir por el dominio real
+      (también en el bloque `application/ld+json` de `index.html`).
 - [ ] Completar los datos de `LocalBusiness` en el bloque
       `application/ld+json` de `index.html`: `address`, `areaServed`,
       `openingHours`, `url`, `image`. Añade solo datos reales.
